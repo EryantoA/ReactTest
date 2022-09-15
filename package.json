@@ -1,5 +1,5 @@
 {
-  "name": "ReactTest",
+  "name": "reacttest",
   "version": "0.0.1",
   "private": true,
   "scripts": {
@@ -7,7 +7,8 @@
     "ios": "react-native run-ios",
     "start": "react-native start",
     "test": "jest",
-    "lint": "eslint ."
+    "lint": "eslint .",
+    "lint-fix": "eslint . --fix"
   },
   "dependencies": {
     "react": "18.1.0",
@@ -19,11 +20,28 @@
     "@react-native-community/eslint-config": "^2.0.0",
     "babel-jest": "^26.6.3",
     "eslint": "^7.32.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-jsx-a11y": "^6.6.1",
+    "eslint-plugin-react": "^7.31.8",
+    "eslint-plugin-react-hooks": "^4.6.0",
     "jest": "^26.6.3",
     "metro-react-native-babel-preset": "^0.72.1",
     "react-test-renderer": "18.1.0"
   },
   "jest": {
     "preset": "react-native"
-  }
+  },
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EryantoA/ReactTest.git"
+  },
+  "author": "Eryanto Agusriadi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EryantoA/ReactTest/issues"
+  },
+  "homepage": "https://github.com/EryantoA/ReactTest#readme",
+  "description": ""
 }
