@@ -13,6 +13,7 @@ const App = () => {
       <TextInput style={{borderWidth: 1}} />
       <ImageBase />
       <BoxGreen />
+      <Profile />
     </View>
   );
 };
@@ -42,6 +43,20 @@ const ImageBase = () => {
 class BoxGreen extends Component {
   render() {
     return <Text>Ini Component dari class</Text>;
+  }
+}
+
+class Profile extends Component {
+  render() {
+    return (
+      <View>
+        <Image
+          source={{uri: 'https://placeimg.com/100/100/arch'}}
+          style={{width: 100, height: 100, borderRadius: 30}}
+        />
+        <Text style={{color: 'blue', fontSize: 22}}>Ini Bangunan</Text>
+      </View>
+    );
   }
 }
 
