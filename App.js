@@ -1,14 +1,16 @@
 import React from 'react';
-import { Image, ScrollView, StyleSheet, Text, View } from 'react-native';
-import macbook from './assets/Apple-M2-SoC-devrait-maintenant-faire-ses-debuts-sur-MacBook.jpeg';
+import {ScrollView, View} from 'react-native';
+import Flexbox from './Flexbox';
 import SampleComponent from './SampleComponent';
+import StylingReactNativeComponent from './StylingReactNativeComponent';
 
 const App = () => {
   return (
     <View>
       <ScrollView>
-        <SampleComponent />
-        <StylingReactNativeComponent />
+        {/* <SampleComponent /> */}
+        {/* <StylingReactNativeComponent /> */}
+		<Flexbox />
       </ScrollView>
     </View>
   );

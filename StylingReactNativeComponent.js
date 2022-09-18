@@ -1,3 +1,7 @@
+import React from 'react';
+import { Image, StyleSheet, Text, View } from 'react-native';
+import macbook from './assets/Apple-M2-SoC-devrait-maintenant-faire-ses-debuts-sur-MacBook.jpeg';
+
 const StylingReactNativeComponent = () => {
   return (
     <View>
@@ -72,3 +76,5 @@ const styles = StyleSheet.create({
     marginLeft: 20,
   },
 });
+
+export default StylingReactNativeComponent;
