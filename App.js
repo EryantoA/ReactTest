@@ -1,8 +1,6 @@
 import React from 'react';
-import {ScrollView, View} from 'react-native';
-import Flexbox from './Flexbox';
-import SampleComponent from './SampleComponent';
-import StylingReactNativeComponent from './StylingReactNativeComponent';
+import { ScrollView, View } from 'react-native';
+import Position from './Position';
 
 const App = () => {
   return (
@@ -10,7 +8,8 @@ const App = () => {
       <ScrollView>
         {/* <SampleComponent /> */}
         {/* <StylingReactNativeComponent /> */}
-		<Flexbox />
+		{/* <Flexbox /> */}
+		<Position />
       </ScrollView>
     </View>
   );
