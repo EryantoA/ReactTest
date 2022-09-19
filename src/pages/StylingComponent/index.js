@@ -1,8 +1,8 @@
 import React from 'react';
 import { Image, StyleSheet, Text, View } from 'react-native';
-import macbook from './assets/Apple-M2-SoC-devrait-maintenant-faire-ses-debuts-sur-MacBook.jpeg';
+import macbook from '../../assets/image/Apple-M2-SoC-devrait-maintenant-faire-ses-debuts-sur-MacBook.jpeg';
 
-const StylingReactNativeComponent = () => {
+const StylingComponent = () => {
   return (
     <View>
       <Text style={styles.text}>Styling Component</Text>
@@ -77,4 +77,4 @@ const styles = StyleSheet.create({
   },
 });
 
-export default StylingReactNativeComponent;
+export default StylingComponent;

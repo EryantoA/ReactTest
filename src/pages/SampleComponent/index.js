@@ -34,7 +34,7 @@ const ImageUrl = () => {
 const ImageBase = () => {
   return (
     <Image
-      source={require('./assets/React.webp')}
+      source={require('../../assets/icon/React.webp')}
       style={{width: 120, height: 120}}
     />
   );

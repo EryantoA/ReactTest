@@ -1,6 +1,6 @@
 import React from 'react';
 import { Image, StyleSheet, Text, View } from 'react-native';
-import cart from './assets/shopping-cart.png';
+import cart from '../../assets/icon/shopping-cart.png';
 
 const Position = () => {
   return (

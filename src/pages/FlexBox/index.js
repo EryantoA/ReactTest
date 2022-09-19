@@ -1,8 +1,8 @@
 import { Component } from 'react';
 import { Image, Text, View } from 'react-native';
-import profile from './assets/pexels-pixabay-220453.jpg';
+import profile from '../../assets/image/pexels-pixabay-220453.jpg';
 
-class Flexbox extends Component {
+class FlexBox extends Component {
   render() {
     return (
       <View>
@@ -41,4 +41,4 @@ class Flexbox extends Component {
   }
 }
 
-export default Flexbox;
+export default FlexBox;
