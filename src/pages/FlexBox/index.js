@@ -3,7 +3,33 @@ import { Image, Text, View } from 'react-native';
 import profile from '../../assets/image/pexels-pixabay-220453.jpg';
 
 class FlexBox extends Component {
+	constructor(props){
+		super(props);
+		console.log('==> constructor');
+		this.state = {
+			subscriber : 500,
+		};
+	}
+
+	componentDidMount(){
+		console.log('==> component did mount');
+		setTimeout(() => {
+			this.setState({
+				subscriber: 900,
+			});
+		}, 2000);
+	}
+
+	componentDidUpdate(){
+		console.log('==> component did update');
+	}
+
+	componentWillUnmount(){
+		console.log('==> component will unmount');
+	}
+
   render() {
+	console.log('==> render');
     return (
       <View>
         <View
@@ -33,7 +59,7 @@ class FlexBox extends Component {
         />
 		<View>
 			<Text style={{fontSize:20, fontWeight: 'bold'}}>Eryanto Agusriadi</Text>
-			<Text>1.000.000 subcriber</Text>
+			<Text>{this.state.subscriber} ribu subcriber</Text>
 		</View>
 		</View>
       </View>

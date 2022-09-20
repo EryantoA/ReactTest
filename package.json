@@ -32,6 +32,9 @@
   "jest": {
     "preset": "react-native"
   },
+  "resolutions": {
+     "react-devtools-core": "~4.25.0"
+  },
   "main": "index.js",
   "repository": {
     "type": "git",
