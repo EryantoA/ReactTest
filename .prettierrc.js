@@ -5,13 +5,3 @@ module.exports = {
   singleQuote: true,
   trailingComma: 'all',
 };
-
-{
-  "prettier/prettier": [
-    "error",
-    {
-      "singleQuote": true,
-      "parser": "flow"
-    }
-  ]
-}
