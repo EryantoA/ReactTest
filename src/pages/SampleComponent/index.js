@@ -1,5 +1,5 @@
-import React, { Component } from 'react';
-import { Image, Text, TextInput, View } from 'react-native';
+import React, {Component} from 'react';
+import {Image, Text, TextInput, View} from 'react-native';
 
 const SampleComponent = () => {
   return (

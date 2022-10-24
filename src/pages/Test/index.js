@@ -1,11 +1,11 @@
-import React, { useState } from 'react';
+import React, {useState} from 'react';
 import {
-	Button,
-	ScrollView,
-	StatusBar,
-	StyleSheet,
-	Text,
-	View
+  Button,
+  ScrollView,
+  StatusBar,
+  StyleSheet,
+  Text,
+  View,
 } from 'react-native';
 
 const Test = () => {
@@ -42,7 +42,7 @@ const Test = () => {
   };
 
   const changeSetting = (value, options, setterFunction) => {
-    if (value == options.length - 1) {
+    if (value === options.length - 1) {
       setterFunction(0);
       return;
     }
@@ -112,7 +112,7 @@ const Test = () => {
             <Button
               title="Delete Square"
               onPress={() =>
-                setSquares(squares.filter((v, i) => i != squares.length - 1))
+                setSquares(squares.filter((v, i) => i  squares.length - 1))
               }
             />
           </View>
