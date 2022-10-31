@@ -1,79 +1,89 @@
-import React, {useState} from 'react';
-import {
-  Button,
-  ScrollView,
-  StyleSheet,
-  Text,
-  TextInput,
-  View,
-} from 'react-native';
-
-export default function App() {
-  const [enteredGoalText, setEnteredGoalText] = useState('');
-  const [courseGoals, setCourseGoals] = useState([]);
-
-  function goalInputHandler(enteredText) {
-    setEnteredGoalText(enteredText);
-  }
-
-  function addGoalHandler() {
-    setCourseGoals(currentCourseGoals => [
-      ...currentCourseGoals,
-      enteredGoalText,
-    ]);
-  }
-
-  return (
-    <View style={styles.appContainer}>
-      <View style={styles.inputContainer}>
-        <TextInput
-          style={styles.textInput}
-          placeholder="Your course goal!"
-          onChangeText={goalInputHandler}
-        />
-        <Button title="Add Goal" onPress={addGoalHandler} />
-      </View>
-      <View style={styles.goalsContainer}>
-        <ScrollView alwaysBounceVertical={false}>
-          {courseGoals.map(goal => (
-            <View style={styles.goalItem} key={goal}>
-              <Text style={styles.goalText}>{goal}</Text>
-            </View>
-          ))}
-        </ScrollView>
-      </View>
-    </View>
-  );
-}
+import React from 'react';
+import {SectionList, StyleSheet, Text, View} from 'react-native';
 
 const styles = StyleSheet.create({
-  appContainer: {flex: 1, paddingTop: 50, paddingHorizontal: 16},
-  inputContainer: {
+  container: {
     flex: 1,
-    flexDirection: 'row',
-    justifyContent: 'space-between',
-    alignItems: 'center',
-    marginBottom: 24,
-    borderBottomWidth: 1,
-    borderBottomColor: '#cccccc',
+    paddingTop: 22,
   },
-  textInput: {
-    borderWidth: 1,
-    borderColor: '#cccccc',
-    width: '70%',
-    marginRight: 8,
-    padding: 8,
+  sectionHeader: {
+    paddingTop: 2,
+    paddingLeft: 10,
+    paddingRight: 10,
+    paddingBottom: 2,
+    fontSize: 14,
+    fontWeight: 'bold',
+    backgroundColor: 'rgba(247,247,247,1.0)',
   },
-  goalsContainer: {
-    flex: 5,
-  },
-  goalItem: {
-    margin: 8,
-    padding: 8,
-    borderRadius: 6,
-    backgroundColor: '#5e0acc',
-  },
-  goalText: {
-    color: 'white',
+  item: {
+    padding: 10,
+    fontSize: 18,
+    height: 44,
   },
 });
+
+const SectionListBasics = () => {
+  return (
+    <View style={styles.container}>
+      <SectionList
+        sections={[
+          {
+            title: 'D',
+            data: [
+              'Devin',
+              'Dan',
+              'Dominic',
+              'Dan',
+              'Dominic',
+              'Dan',
+              'Dominic',
+            ],
+          },
+          {
+            title: 'J',
+            data: [
+              'Jackson',
+              'James',
+              'Jillian',
+              'Jimmy',
+              'Joel',
+              'John',
+              'Julie',
+              'Joel',
+              'John',
+              'Julie',
+              'Joel',
+              'John',
+              'Julie',
+            ],
+          },
+          {
+            title: 'K',
+            data: [
+              'Jackson',
+              'James',
+              'Jillian',
+              'Jimmy',
+              'Joel',
+              'John',
+              'Julie',
+              'Joel',
+              'John',
+              'Julie',
+              'Joel',
+              'John',
+              'Julie',
+            ],
+          },
+        ]}
+        renderItem={({item}) => <Text style={styles.item}>{item}</Text>}
+        renderSectionHeader={({section}) => (
+          <Text style={styles.sectionHeader}>{section.title}</Text>
+        )}
+        keyExtractor={(item, index) => `basicListEntry-${item.title}`}
+      />
+    </View>
+  );
+};
+
+export default SectionListBasics;
