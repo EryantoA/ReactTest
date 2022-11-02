@@ -42,7 +42,7 @@ const App = () => {
   };
 
   const changeSetting = (value, options, setterFunction) => {
-    if (value == options.length - 1) {
+    if (value === options.length - 1) {
       setterFunction(0);
       return;
     }

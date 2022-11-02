@@ -1,54 +1,28 @@
 import React, {useState} from 'react';
-import {
-  View,
-  SafeAreaView,
-  TouchableOpacity,
-  Text,
-  StyleSheet,
-} from 'react-native';
+import {View, TouchableOpacity, Text, StyleSheet} from 'react-native';
 
-const PositionLayout = () => {
-  const [position, setPosition] = useState('relative');
+const AlignSelfLayout = () => {
+  const [alignSelf, setAlignSelf] = useState('stretch');
 
   return (
     <PreviewLayout
-      label="position"
-      selectedValue={position}
-      values={['relative', 'absolute']}
-      setSelectedValue={setPosition}>
+      label="alignSelf"
+      selectedValue={alignSelf}
+      values={['stretch', 'flex-start', 'flex-end', 'center', 'baseline']}
+      setSelectedValue={setAlignSelf}>
       <View
         style={[
           styles.box,
           {
-            top: 25,
-            left: 25,
-            position,
+            alignSelf,
+            width: 'auto',
+            minWidth: 50,
             backgroundColor: 'powderblue',
           },
         ]}
       />
-      <View
-        style={[
-          styles.box,
-          {
-            top: 50,
-            left: 50,
-            position,
-            backgroundColor: 'skyblue',
-          },
-        ]}
-      />
-      <View
-        style={[
-          styles.box,
-          {
-            top: 75,
-            left: 75,
-            position,
-            backgroundColor: 'steelblue',
-          },
-        ]}
-      />
+      <View style={[styles.box, {backgroundColor: 'skyblue'}]} />
+      <View style={[styles.box, {backgroundColor: 'steelblue'}]} />
     </PreviewLayout>
   );
 };
@@ -127,4 +101,4 @@ const styles = StyleSheet.create({
   },
 });
 
-export default PositionLayout;
+export default AlignSelfLayout;

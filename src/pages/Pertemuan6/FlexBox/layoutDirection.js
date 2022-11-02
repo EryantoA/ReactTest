@@ -1,54 +1,18 @@
 import React, {useState} from 'react';
-import {
-  View,
-  SafeAreaView,
-  TouchableOpacity,
-  Text,
-  StyleSheet,
-} from 'react-native';
+import {View, TouchableOpacity, Text, StyleSheet} from 'react-native';
 
-const PositionLayout = () => {
-  const [position, setPosition] = useState('relative');
+const DirectionLayout = () => {
+  const [direction, setDirection] = useState('ltr');
 
   return (
     <PreviewLayout
-      label="position"
-      selectedValue={position}
-      values={['relative', 'absolute']}
-      setSelectedValue={setPosition}>
-      <View
-        style={[
-          styles.box,
-          {
-            top: 25,
-            left: 25,
-            position,
-            backgroundColor: 'powderblue',
-          },
-        ]}
-      />
-      <View
-        style={[
-          styles.box,
-          {
-            top: 50,
-            left: 50,
-            position,
-            backgroundColor: 'skyblue',
-          },
-        ]}
-      />
-      <View
-        style={[
-          styles.box,
-          {
-            top: 75,
-            left: 75,
-            position,
-            backgroundColor: 'steelblue',
-          },
-        ]}
-      />
+      label="direction"
+      selectedValue={direction}
+      values={['ltr', 'rtl']}
+      setSelectedValue={setDirection}>
+      <View style={[styles.box, {backgroundColor: 'powderblue'}]} />
+      <View style={[styles.box, {backgroundColor: 'skyblue'}]} />
+      <View style={[styles.box, {backgroundColor: 'steelblue'}]} />
     </PreviewLayout>
   );
 };
@@ -78,7 +42,7 @@ const PreviewLayout = ({
         </TouchableOpacity>
       ))}
     </View>
-    <View style={styles.container}>{children}</View>
+    <View style={[styles.container, {[label]: selectedValue}]}>{children}</View>
   </View>
 );
 
@@ -87,7 +51,6 @@ const styles = StyleSheet.create({
     flex: 1,
     marginTop: 8,
     backgroundColor: 'aliceblue',
-    minHeight: 200,
   },
   box: {
     width: 50,
@@ -127,4 +90,4 @@ const styles = StyleSheet.create({
   },
 });
 
-export default PositionLayout;
+export default DirectionLayout;

@@ -1,54 +1,29 @@
 import React, {useState} from 'react';
-import {
-  View,
-  SafeAreaView,
-  TouchableOpacity,
-  Text,
-  StyleSheet,
-} from 'react-native';
+import {View, TouchableOpacity, Text, StyleSheet} from 'react-native';
 
-const PositionLayout = () => {
-  const [position, setPosition] = useState('relative');
+const AlignContentLayout = () => {
+  const [alignContent, setAlignContent] = useState('flex-start');
 
   return (
     <PreviewLayout
-      label="position"
-      selectedValue={position}
-      values={['relative', 'absolute']}
-      setSelectedValue={setPosition}>
-      <View
-        style={[
-          styles.box,
-          {
-            top: 25,
-            left: 25,
-            position,
-            backgroundColor: 'powderblue',
-          },
-        ]}
-      />
-      <View
-        style={[
-          styles.box,
-          {
-            top: 50,
-            left: 50,
-            position,
-            backgroundColor: 'skyblue',
-          },
-        ]}
-      />
-      <View
-        style={[
-          styles.box,
-          {
-            top: 75,
-            left: 75,
-            position,
-            backgroundColor: 'steelblue',
-          },
-        ]}
-      />
+      label="alignContent"
+      selectedValue={alignContent}
+      values={[
+        'flex-start',
+        'flex-end',
+        'stretch',
+        'center',
+        'space-between',
+        'space-around',
+      ]}
+      setSelectedValue={setAlignContent}>
+      <View style={[styles.box, {backgroundColor: 'orangered'}]} />
+      <View style={[styles.box, {backgroundColor: 'orange'}]} />
+      <View style={[styles.box, {backgroundColor: 'mediumseagreen'}]} />
+      <View style={[styles.box, {backgroundColor: 'deepskyblue'}]} />
+      <View style={[styles.box, {backgroundColor: 'mediumturquoise'}]} />
+      <View style={[styles.box, {backgroundColor: 'mediumslateblue'}]} />
+      <View style={[styles.box, {backgroundColor: 'purple'}]} />
     </PreviewLayout>
   );
 };
@@ -78,20 +53,21 @@ const PreviewLayout = ({
         </TouchableOpacity>
       ))}
     </View>
-    <View style={styles.container}>{children}</View>
+    <View style={[styles.container, {[label]: selectedValue}]}>{children}</View>
   </View>
 );
 
 const styles = StyleSheet.create({
   container: {
     flex: 1,
+    flexWrap: 'wrap',
     marginTop: 8,
     backgroundColor: 'aliceblue',
-    minHeight: 200,
+    maxHeight: 400,
   },
   box: {
     width: 50,
-    height: 50,
+    height: 80,
   },
   row: {
     flexDirection: 'row',
@@ -127,4 +103,4 @@ const styles = StyleSheet.create({
   },
 });
 
-export default PositionLayout;
+export default AlignContentLayout;
