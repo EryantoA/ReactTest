@@ -1,0 +1,385 @@
+!! PLEASE REVIEW THIS LOG FOR SENSITIVE INFORMATION BEFORE SHARING !!
+
+Dart Code extension: 3.52.1
+Flutter extension: 3.52.0 (not activated)
+
+App: Visual Studio Code
+Version: 1.73.0
+Platform: win
+
+HTTP_PROXY: undefined
+NO_PROXY: undefined
+
+Logging Categories:
+    General
+
+Mon Nov 07 2022 [19:17:30 GMT+0700 (Indochina Time)] Log file started
+[7:17:30 PM] [General] [Info] Searching for SDKs...
+[7:17:30 PM] [General] [Info] Environment PATH:
+[7:17:30 PM] [General] [Info]     C:\msys64\usr\bin
+[7:17:30 PM] [General] [Info]     C:\nuget
+[7:17:30 PM] [General] [Info]     C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64\compiler
+[7:17:30 PM] [General] [Info]     C:\WINDOWS\system32
+[7:17:30 PM] [General] [Info]     C:\WINDOWS
+[7:17:30 PM] [General] [Info]     C:\WINDOWS\System32\Wbem
+[7:17:30 PM] [General] [Info]     C:\WINDOWS\System32\WindowsPowerShell\v1.0\
+[7:17:30 PM] [General] [Info]     C:\WINDOWS\System32\OpenSSH\
+[7:17:30 PM] [General] [Info]     C:\Program Files\Intel\WiFi\bin\
+[7:17:30 PM] [General] [Info]     C:\Program Files\Common Files\Intel\WirelessCommon\
+[7:17:30 PM] [General] [Info]     C:\Program Files (x86)\QuickTime\QTSystem\
+[7:17:30 PM] [General] [Info]     C:\Program Files\Microsoft SQL Server\130\Tools\Binn\
+[7:17:30 PM] [General] [Info]     C:\Program Files\Dart\dart-sdk\bin
+[7:17:30 PM] [General] [Info]     C:\Program Files\MATLAB\R2014a\runtime\win64
+[7:17:30 PM] [General] [Info]     C:\Program Files\MATLAB\R2014a\bin
+[7:17:30 PM] [General] [Info]     C:\Users\asus\AppData\Local\Microsoft\WindowsApps
+[7:17:30 PM] [General] [Info]     C:\Users\asus\.dotnet\tools
+[7:17:30 PM] [General] [Info]     C:\MinGW\bin
+[7:17:30 PM] [General] [Info]     C:\Users\asus\AppData\Local\Programs\Microsoft VS Code\bin
+[7:17:30 PM] [General] [Info]     C:\ProgramData\asus\GitHubDesktop\bin
+[7:17:30 PM] [General] [Info]     C:\Users\asus\AppData\Local\GitHubDesktop\bin
+[7:17:30 PM] [General] [Info]     C:\adb
+[7:17:30 PM] [General] [Info]     C:\Program Files (x86)\GtkSharp\2.12\bin
+[7:17:30 PM] [General] [Info]     D:\Flutter\flutter\bin
+[7:17:30 PM] [General] [Info]     C:\Program Files\Dart\dart-sdk\bin
+[7:17:30 PM] [General] [Info]     C:\ProgramData\chocolatey\bin
+[7:17:30 PM] [General] [Info]     C:\Users\asus\AppData\Local\Programs\Python\Python39
+[7:17:30 PM] [General] [Info]     C:\Users\asus\AppData\Local\Programs\Python\Python39\Scripts
+[7:17:30 PM] [General] [Info]     C:\Users\asus\AppData\Roaming\nvm
+[7:17:30 PM] [General] [Info]     C:\Program Files\nodejs
+[7:17:30 PM] [General] [Info]     C:\composer
+[7:17:30 PM] [General] [Info]     D:\laragon\bin\php\php-8.0.21-Win32-vs16-x64
+[7:17:30 PM] [General] [Info]     C:\Program Files\PuTTY\
+[7:17:30 PM] [General] [Info]     C:\Program Files\nodejs\
+[7:17:30 PM] [General] [Info]     C:\Program Files\OpenJDK\openjdk-11.0.16_8\bin
+[7:17:30 PM] [General] [Info]     C:\Users\asus\AppData\Local\Android\Sdk\platform-tools
+[7:17:30 PM] [General] [Info]     C:\Program Files\Java\jdk-18.0.2.1\bin
+[7:17:30 PM] [General] [Info]     C:\Program Files\Git\cmd
+[7:17:30 PM] [General] [Info]     C:\Users\asus\AppData\Local\Yarn\config\global\node_modules\.bin
+[7:17:30 PM] [General] [Info]     C:\Users\asus\AppData\Roaming\Composer\vendor\bin
+[7:17:30 PM] [General] [Info]     D:\laragon\bin
+[7:17:30 PM] [General] [Info]     D:\laragon\bin\apache\httpd-2.4.47-win64-VS16\bin
+[7:17:30 PM] [General] [Info]     D:\laragon\bin\composer
+[7:17:30 PM] [General] [Info]     D:\laragon\bin\git\bin
+[7:17:30 PM] [General] [Info]     D:\laragon\bin\git\cmd
+[7:17:30 PM] [General] [Info]     D:\laragon\bin\git\mingw64\bin
+[7:17:30 PM] [General] [Info]     D:\laragon\bin\git\usr\bin
+[7:17:30 PM] [General] [Info]     D:\laragon\bin\laragon\utils
+[7:17:30 PM] [General] [Info]     D:\laragon\bin\mysql\mysql-5.7.33-winx64\bin
+[7:17:30 PM] [General] [Info]     D:\laragon\bin\nginx\nginx-1.19.10
+[7:17:30 PM] [General] [Info]     D:\laragon\bin\ngrok
+[7:17:30 PM] [General] [Info]     D:\laragon\bin\nodejs\node-v14
+[7:17:30 PM] [General] [Info]     D:\laragon\bin\notepad++
+[7:17:30 PM] [General] [Info]     D:\laragon\bin\php\php-7.4.19-Win32-vc15-x64
+[7:17:30 PM] [General] [Info]     D:\laragon\bin\redis\redis-x64-3.2.100
+[7:17:30 PM] [General] [Info]     D:\laragon\bin\telnet
+[7:17:30 PM] [General] [Info]     D:\laragon\usr\bin
+[7:17:30 PM] [General] [Info]     C:\nuget
+[7:17:30 PM] [General] [Info]     C:\MinGW\bin
+[7:17:30 PM] [General] [Info]     C:\Users\asus\AppData\Local\Programs\Microsoft VS Code\bin
+[7:17:30 PM] [General] [Info]     C:\ProgramData\asus\GitHubDesktop\bin
+[7:17:30 PM] [General] [Info]     C:\Users\asus\AppData\Local\GitHubDesktop\bin
+[7:17:30 PM] [General] [Info]     C:\Users\asus\AppData\Local\Programs\Python\Python39
+[7:17:30 PM] [General] [Info]     D:\Flutter\flutter\bin
+[7:17:30 PM] [General] [Info]     C:\Program Files\Dart\dart-sdk\bin
+[7:17:30 PM] [General] [Info]     C:\msys64\usr\bin
+[7:17:30 PM] [General] [Info]     C:\Users\asus\AppData\Local\Programs\Python\Python39\Scripts
+[7:17:30 PM] [General] [Info]     C:\bazel
+[7:17:30 PM] [General] [Info]     C:\Users\asus\AppData\Roaming\nvm
+[7:17:30 PM] [General] [Info]     C:\Program Files\nodejs
+[7:17:30 PM] [General] [Info]     C:\Users\asus\AppData\Roaming\npm
+[7:17:36 PM] [General] [Info] Took 6451ms to search for projects (5 levels)
+[7:17:36 PM] [General] [Info] Took 0ms to filter out excluded projects (0 exclusion rules)
+[7:17:36 PM] [General] [Info] Searching for flutter.bat
+[7:17:36 PM] [General] [Info]     Looking for flutter.bat in:
+[7:17:36 PM] [General] [Info]         D:\Flutter\flutter
+[7:17:36 PM] [General] [Info]         D:\Flutter\flutter\bin
+[7:17:36 PM] [General] [Info]         C:\Users\asus\flutter-sdk
+[7:17:36 PM] [General] [Info]         C:\Users\asus\flutter-sdk\bin
+[7:17:36 PM] [General] [Info]         /google/flutter
+[7:17:36 PM] [General] [Info]         \google\flutter\bin
+[7:17:36 PM] [General] [Info]         C:\msys64\usr\bin
+[7:17:36 PM] [General] [Info]         C:\nuget
+[7:17:36 PM] [General] [Info]         C:\nuget\bin
+[7:17:36 PM] [General] [Info]         C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64\compiler
+[7:17:36 PM] [General] [Info]         C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64\compiler\bin
+[7:17:36 PM] [General] [Info]         C:\WINDOWS\system32
+[7:17:36 PM] [General] [Info]         C:\WINDOWS\system32\bin
+[7:17:36 PM] [General] [Info]         C:\WINDOWS
+[7:17:36 PM] [General] [Info]         C:\WINDOWS\bin
+[7:17:36 PM] [General] [Info]         C:\WINDOWS\System32\Wbem
+[7:17:36 PM] [General] [Info]         C:\WINDOWS\System32\Wbem\bin
+[7:17:36 PM] [General] [Info]         C:\WINDOWS\System32\WindowsPowerShell\v1.0\
+[7:17:36 PM] [General] [Info]         C:\WINDOWS\System32\WindowsPowerShell\v1.0\bin
+[7:17:36 PM] [General] [Info]         C:\WINDOWS\System32\OpenSSH\
+[7:17:36 PM] [General] [Info]         C:\WINDOWS\System32\OpenSSH\bin
+[7:17:36 PM] [General] [Info]         C:\Program Files\Intel\WiFi\bin\
+[7:17:36 PM] [General] [Info]         C:\Program Files\Common Files\Intel\WirelessCommon\
+[7:17:36 PM] [General] [Info]         C:\Program Files\Common Files\Intel\WirelessCommon\bin
+[7:17:36 PM] [General] [Info]         C:\Program Files (x86)\QuickTime\QTSystem\
+[7:17:36 PM] [General] [Info]         C:\Program Files (x86)\QuickTime\QTSystem\bin
+[7:17:36 PM] [General] [Info]         C:\Program Files\Microsoft SQL Server\130\Tools\Binn\
+[7:17:36 PM] [General] [Info]         C:\Program Files\Microsoft SQL Server\130\Tools\Binn\bin
+[7:17:36 PM] [General] [Info]         C:\Program Files\Dart\dart-sdk\bin
+[7:17:36 PM] [General] [Info]         C:\Program Files\MATLAB\R2014a\runtime\win64
+[7:17:36 PM] [General] [Info]         C:\Program Files\MATLAB\R2014a\runtime\win64\bin
+[7:17:36 PM] [General] [Info]         C:\Program Files\MATLAB\R2014a\bin
+[7:17:36 PM] [General] [Info]         C:\Users\asus\AppData\Local\Microsoft\WindowsApps
+[7:17:36 PM] [General] [Info]         C:\Users\asus\AppData\Local\Microsoft\WindowsApps\bin
+[7:17:36 PM] [General] [Info]         C:\Users\asus\.dotnet\tools
+[7:17:36 PM] [General] [Info]         C:\Users\asus\.dotnet\tools\bin
+[7:17:36 PM] [General] [Info]         C:\MinGW\bin
+[7:17:36 PM] [General] [Info]         C:\Users\asus\AppData\Local\Programs\Microsoft VS Code\bin
+[7:17:36 PM] [General] [Info]         C:\ProgramData\asus\GitHubDesktop\bin
+[7:17:36 PM] [General] [Info]         C:\Users\asus\AppData\Local\GitHubDesktop\bin
+[7:17:36 PM] [General] [Info]         C:\adb
+[7:17:36 PM] [General] [Info]         C:\adb\bin
+[7:17:36 PM] [General] [Info]         C:\Program Files (x86)\GtkSharp\2.12\bin
+[7:17:36 PM] [General] [Info]         D:\Flutter\flutter\bin
+[7:17:36 PM] [General] [Info]         C:\Program Files\Dart\dart-sdk\bin
+[7:17:36 PM] [General] [Info]         C:\ProgramData\chocolatey\bin
+[7:17:36 PM] [General] [Info]         C:\Users\asus\AppData\Local\Programs\Python\Python39
+[7:17:36 PM] [General] [Info]         C:\Users\asus\AppData\Local\Programs\Python\Python39\bin
+[7:17:36 PM] [General] [Info]         C:\Users\asus\AppData\Local\Programs\Python\Python39\Scripts
+[7:17:36 PM] [General] [Info]         C:\Users\asus\AppData\Local\Programs\Python\Python39\Scripts\bin
+[7:17:36 PM] [General] [Info]         C:\Users\asus\AppData\Roaming\nvm
+[7:17:36 PM] [General] [Info]         C:\Users\asus\AppData\Roaming\nvm\bin
+[7:17:36 PM] [General] [Info]         C:\Program Files\nodejs
+[7:17:36 PM] [General] [Info]         C:\Program Files\nodejs\bin
+[7:17:36 PM] [General] [Info]         C:\composer
+[7:17:36 PM] [General] [Info]         C:\composer\bin
+[7:17:36 PM] [General] [Info]         D:\laragon\bin\php\php-8.0.21-Win32-vs16-x64
+[7:17:36 PM] [General] [Info]         D:\laragon\bin\php\php-8.0.21-Win32-vs16-x64\bin
+[7:17:36 PM] [General] [Info]         C:\Program Files\PuTTY\
+[7:17:36 PM] [General] [Info]         C:\Program Files\PuTTY\bin
+[7:17:36 PM] [General] [Info]         C:\Program Files\nodejs\
+[7:17:36 PM] [General] [Info]         C:\Program Files\nodejs\bin
+[7:17:36 PM] [General] [Info]         C:\Program Files\OpenJDK\openjdk-11.0.16_8\bin
+[7:17:36 PM] [General] [Info]         C:\Users\asus\AppData\Local\Android\Sdk\platform-tools
+[7:17:36 PM] [General] [Info]         C:\Users\asus\AppData\Local\Android\Sdk\platform-tools\bin
+[7:17:36 PM] [General] [Info]         C:\Program Files\Java\jdk-18.0.2.1\bin
+[7:17:36 PM] [General] [Info]         C:\Program Files\Git\cmd
+[7:17:36 PM] [General] [Info]         C:\Program Files\Git\cmd\bin
+[7:17:36 PM] [General] [Info]         C:\Users\asus\AppData\Local\Yarn\config\global\node_modules\.bin
+[7:17:36 PM] [General] [Info]         C:\Users\asus\AppData\Local\Yarn\config\global\node_modules\.bin\bin
+[7:17:36 PM] [General] [Info]         C:\Users\asus\AppData\Roaming\Composer\vendor\bin
+[7:17:36 PM] [General] [Info]         D:\laragon\bin
+[7:17:36 PM] [General] [Info]         D:\laragon\bin\apache\httpd-2.4.47-win64-VS16\bin
+[7:17:36 PM] [General] [Info]         D:\laragon\bin\composer
+[7:17:36 PM] [General] [Info]         D:\laragon\bin\composer\bin
+[7:17:36 PM] [General] [Info]         D:\laragon\bin\git\bin
+[7:17:36 PM] [General] [Info]         D:\laragon\bin\git\cmd
+[7:17:36 PM] [General] [Info]         D:\laragon\bin\git\cmd\bin
+[7:17:36 PM] [General] [Info]         D:\laragon\bin\git\mingw64\bin
+[7:17:36 PM] [General] [Info]         D:\laragon\bin\git\usr\bin
+[7:17:36 PM] [General] [Info]         D:\laragon\bin\laragon\utils
+[7:17:36 PM] [General] [Info]         D:\laragon\bin\laragon\utils\bin
+[7:17:36 PM] [General] [Info]         D:\laragon\bin\mysql\mysql-5.7.33-winx64\bin
+[7:17:36 PM] [General] [Info]         D:\laragon\bin\nginx\nginx-1.19.10
+[7:17:36 PM] [General] [Info]         D:\laragon\bin\nginx\nginx-1.19.10\bin
+[7:17:36 PM] [General] [Info]         D:\laragon\bin\ngrok
+[7:17:36 PM] [General] [Info]         D:\laragon\bin\ngrok\bin
+[7:17:36 PM] [General] [Info]         D:\laragon\bin\nodejs\node-v14
+[7:17:36 PM] [General] [Info]         D:\laragon\bin\nodejs\node-v14\bin
+[7:17:36 PM] [General] [Info]         D:\laragon\bin\notepad++
+[7:17:36 PM] [General] [Info]         D:\laragon\bin\notepad++\bin
+[7:17:36 PM] [General] [Info]         D:\laragon\bin\php\php-7.4.19-Win32-vc15-x64
+[7:17:36 PM] [General] [Info]         D:\laragon\bin\php\php-7.4.19-Win32-vc15-x64\bin
+[7:17:36 PM] [General] [Info]         D:\laragon\bin\redis\redis-x64-3.2.100
+[7:17:36 PM] [General] [Info]         D:\laragon\bin\redis\redis-x64-3.2.100\bin
+[7:17:36 PM] [General] [Info]         D:\laragon\bin\telnet
+[7:17:36 PM] [General] [Info]         D:\laragon\bin\telnet\bin
+[7:17:36 PM] [General] [Info]         D:\laragon\usr\bin
+[7:17:36 PM] [General] [Info]         C:\nuget
+[7:17:36 PM] [General] [Info]         C:\nuget\bin
+[7:17:36 PM] [General] [Info]         C:\MinGW\bin
+[7:17:36 PM] [General] [Info]         C:\Users\asus\AppData\Local\Programs\Microsoft VS Code\bin
+[7:17:36 PM] [General] [Info]         C:\ProgramData\asus\GitHubDesktop\bin
+[7:17:36 PM] [General] [Info]         C:\Users\asus\AppData\Local\GitHubDesktop\bin
+[7:17:36 PM] [General] [Info]         C:\Users\asus\AppData\Local\Programs\Python\Python39
+[7:17:36 PM] [General] [Info]         C:\Users\asus\AppData\Local\Programs\Python\Python39\bin
+[7:17:36 PM] [General] [Info]         D:\Flutter\flutter\bin
+[7:17:36 PM] [General] [Info]         C:\Program Files\Dart\dart-sdk\bin
+[7:17:36 PM] [General] [Info]         C:\msys64\usr\bin
+[7:17:36 PM] [General] [Info]         C:\Users\asus\AppData\Local\Programs\Python\Python39\Scripts
+[7:17:36 PM] [General] [Info]         C:\Users\asus\AppData\Local\Programs\Python\Python39\Scripts\bin
+[7:17:36 PM] [General] [Info]         C:\bazel
+[7:17:36 PM] [General] [Info]         C:\bazel\bin
+[7:17:36 PM] [General] [Info]         C:\Users\asus\AppData\Roaming\nvm
+[7:17:36 PM] [General] [Info]         C:\Users\asus\AppData\Roaming\nvm\bin
+[7:17:36 PM] [General] [Info]         C:\Program Files\nodejs
+[7:17:36 PM] [General] [Info]         C:\Program Files\nodejs\bin
+[7:17:36 PM] [General] [Info]         C:\Users\asus\AppData\Roaming\npm
+[7:17:36 PM] [General] [Info]         C:\Users\asus\AppData\Roaming\npm\bin
+[7:17:36 PM] [General] [Info]     Found at:
+[7:17:36 PM] [General] [Info]         D:\Flutter\flutter\bin
+[7:17:36 PM] [General] [Info]         D:\Flutter\flutter\bin
+[7:17:36 PM] [General] [Info]         D:\Flutter\flutter\bin
+[7:17:36 PM] [General] [Info]     Candidate paths to be post-filtered:
+[7:17:36 PM] [General] [Info]         D:\Flutter\flutter
+[7:17:36 PM] [General] [Info]         D:\Flutter\flutter
+[7:17:36 PM] [General] [Info]         D:\Flutter\flutter
+[7:17:36 PM] [General] [Info]     Found at D:\Flutter\flutter
+[7:17:36 PM] [General] [Info]     Returning SDK path D:\Flutter\flutter for flutter.bat
+[7:17:36 PM] [General] [Info] Searching for dart.exe
+[7:17:36 PM] [General] [Info]     Looking for dart.exe in:
+[7:17:36 PM] [General] [Info]         C:\msys64\usr\bin
+[7:17:36 PM] [General] [Info]         C:\nuget
+[7:17:36 PM] [General] [Info]         C:\nuget\bin
+[7:17:36 PM] [General] [Info]         C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64\compiler
+[7:17:36 PM] [General] [Info]         C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64\compiler\bin
+[7:17:36 PM] [General] [Info]         C:\WINDOWS\system32
+[7:17:36 PM] [General] [Info]         C:\WINDOWS\system32\bin
+[7:17:36 PM] [General] [Info]         C:\WINDOWS
+[7:17:36 PM] [General] [Info]         C:\WINDOWS\bin
+[7:17:36 PM] [General] [Info]         C:\WINDOWS\System32\Wbem
+[7:17:36 PM] [General] [Info]         C:\WINDOWS\System32\Wbem\bin
+[7:17:36 PM] [General] [Info]         C:\WINDOWS\System32\WindowsPowerShell\v1.0\
+[7:17:36 PM] [General] [Info]         C:\WINDOWS\System32\WindowsPowerShell\v1.0\bin
+[7:17:36 PM] [General] [Info]         C:\WINDOWS\System32\OpenSSH\
+[7:17:36 PM] [General] [Info]         C:\WINDOWS\System32\OpenSSH\bin
+[7:17:36 PM] [General] [Info]         C:\Program Files\Intel\WiFi\bin\
+[7:17:36 PM] [General] [Info]         C:\Program Files\Common Files\Intel\WirelessCommon\
+[7:17:36 PM] [General] [Info]         C:\Program Files\Common Files\Intel\WirelessCommon\bin
+[7:17:36 PM] [General] [Info]         C:\Program Files (x86)\QuickTime\QTSystem\
+[7:17:36 PM] [General] [Info]         C:\Program Files (x86)\QuickTime\QTSystem\bin
+[7:17:36 PM] [General] [Info]         C:\Program Files\Microsoft SQL Server\130\Tools\Binn\
+[7:17:36 PM] [General] [Info]         C:\Program Files\Microsoft SQL Server\130\Tools\Binn\bin
+[7:17:36 PM] [General] [Info]         C:\Program Files\Dart\dart-sdk\bin
+[7:17:36 PM] [General] [Info]         C:\Program Files\MATLAB\R2014a\runtime\win64
+[7:17:36 PM] [General] [Info]         C:\Program Files\MATLAB\R2014a\runtime\win64\bin
+[7:17:36 PM] [General] [Info]         C:\Program Files\MATLAB\R2014a\bin
+[7:17:36 PM] [General] [Info]         C:\Users\asus\AppData\Local\Microsoft\WindowsApps
+[7:17:36 PM] [General] [Info]         C:\Users\asus\AppData\Local\Microsoft\WindowsApps\bin
+[7:17:36 PM] [General] [Info]         C:\Users\asus\.dotnet\tools
+[7:17:36 PM] [General] [Info]         C:\Users\asus\.dotnet\tools\bin
+[7:17:36 PM] [General] [Info]         C:\MinGW\bin
+[7:17:36 PM] [General] [Info]         C:\Users\asus\AppData\Local\Programs\Microsoft VS Code\bin
+[7:17:36 PM] [General] [Info]         C:\ProgramData\asus\GitHubDesktop\bin
+[7:17:36 PM] [General] [Info]         C:\Users\asus\AppData\Local\GitHubDesktop\bin
+[7:17:36 PM] [General] [Info]         C:\adb
+[7:17:36 PM] [General] [Info]         C:\adb\bin
+[7:17:36 PM] [General] [Info]         C:\Program Files (x86)\GtkSharp\2.12\bin
+[7:17:36 PM] [General] [Info]         D:\Flutter\flutter\bin
+[7:17:36 PM] [General] [Info]         C:\Program Files\Dart\dart-sdk\bin
+[7:17:36 PM] [General] [Info]         C:\ProgramData\chocolatey\bin
+[7:17:36 PM] [General] [Info]         C:\Users\asus\AppData\Local\Programs\Python\Python39
+[7:17:36 PM] [General] [Info]         C:\Users\asus\AppData\Local\Programs\Python\Python39\bin
+[7:17:36 PM] [General] [Info]         C:\Users\asus\AppData\Local\Programs\Python\Python39\Scripts
+[7:17:36 PM] [General] [Info]         C:\Users\asus\AppData\Local\Programs\Python\Python39\Scripts\bin
+[7:17:36 PM] [General] [Info]         C:\Users\asus\AppData\Roaming\nvm
+[7:17:36 PM] [General] [Info]         C:\Users\asus\AppData\Roaming\nvm\bin
+[7:17:36 PM] [General] [Info]         C:\Program Files\nodejs
+[7:17:36 PM] [General] [Info]         C:\Program Files\nodejs\bin
+[7:17:36 PM] [General] [Info]         C:\composer
+[7:17:36 PM] [General] [Info]         C:\composer\bin
+[7:17:36 PM] [General] [Info]         D:\laragon\bin\php\php-8.0.21-Win32-vs16-x64
+[7:17:36 PM] [General] [Info]         D:\laragon\bin\php\php-8.0.21-Win32-vs16-x64\bin
+[7:17:36 PM] [General] [Info]         C:\Program Files\PuTTY\
+[7:17:36 PM] [General] [Info]         C:\Program Files\PuTTY\bin
+[7:17:36 PM] [General] [Info]         C:\Program Files\nodejs\
+[7:17:36 PM] [General] [Info]         C:\Program Files\nodejs\bin
+[7:17:36 PM] [General] [Info]         C:\Program Files\OpenJDK\openjdk-11.0.16_8\bin
+[7:17:36 PM] [General] [Info]         C:\Users\asus\AppData\Local\Android\Sdk\platform-tools
+[7:17:36 PM] [General] [Info]         C:\Users\asus\AppData\Local\Android\Sdk\platform-tools\bin
+[7:17:36 PM] [General] [Info]         C:\Program Files\Java\jdk-18.0.2.1\bin
+[7:17:36 PM] [General] [Info]         C:\Program Files\Git\cmd
+[7:17:36 PM] [General] [Info]         C:\Program Files\Git\cmd\bin
+[7:17:36 PM] [General] [Info]         C:\Users\asus\AppData\Local\Yarn\config\global\node_modules\.bin
+[7:17:36 PM] [General] [Info]         C:\Users\asus\AppData\Local\Yarn\config\global\node_modules\.bin\bin
+[7:17:36 PM] [General] [Info]         C:\Users\asus\AppData\Roaming\Composer\vendor\bin
+[7:17:36 PM] [General] [Info]         D:\laragon\bin
+[7:17:36 PM] [General] [Info]         D:\laragon\bin\apache\httpd-2.4.47-win64-VS16\bin
+[7:17:36 PM] [General] [Info]         D:\laragon\bin\composer
+[7:17:36 PM] [General] [Info]         D:\laragon\bin\composer\bin
+[7:17:36 PM] [General] [Info]         D:\laragon\bin\git\bin
+[7:17:36 PM] [General] [Info]         D:\laragon\bin\git\cmd
+[7:17:36 PM] [General] [Info]         D:\laragon\bin\git\cmd\bin
+[7:17:36 PM] [General] [Info]         D:\laragon\bin\git\mingw64\bin
+[7:17:36 PM] [General] [Info]         D:\laragon\bin\git\usr\bin
+[7:17:36 PM] [General] [Info]         D:\laragon\bin\laragon\utils
+[7:17:36 PM] [General] [Info]         D:\laragon\bin\laragon\utils\bin
+[7:17:36 PM] [General] [Info]         D:\laragon\bin\mysql\mysql-5.7.33-winx64\bin
+[7:17:36 PM] [General] [Info]         D:\laragon\bin\nginx\nginx-1.19.10
+[7:17:36 PM] [General] [Info]         D:\laragon\bin\nginx\nginx-1.19.10\bin
+[7:17:36 PM] [General] [Info]         D:\laragon\bin\ngrok
+[7:17:36 PM] [General] [Info]         D:\laragon\bin\ngrok\bin
+[7:17:36 PM] [General] [Info]         D:\laragon\bin\nodejs\node-v14
+[7:17:36 PM] [General] [Info]         D:\laragon\bin\nodejs\node-v14\bin
+[7:17:36 PM] [General] [Info]         D:\laragon\bin\notepad++
+[7:17:36 PM] [General] [Info]         D:\laragon\bin\notepad++\bin
+[7:17:36 PM] [General] [Info]         D:\laragon\bin\php\php-7.4.19-Win32-vc15-x64
+[7:17:36 PM] [General] [Info]         D:\laragon\bin\php\php-7.4.19-Win32-vc15-x64\bin
+[7:17:36 PM] [General] [Info]         D:\laragon\bin\redis\redis-x64-3.2.100
+[7:17:36 PM] [General] [Info]         D:\laragon\bin\redis\redis-x64-3.2.100\bin
+[7:17:36 PM] [General] [Info]         D:\laragon\bin\telnet
+[7:17:36 PM] [General] [Info]         D:\laragon\bin\telnet\bin
+[7:17:36 PM] [General] [Info]         D:\laragon\usr\bin
+[7:17:36 PM] [General] [Info]         C:\nuget
+[7:17:36 PM] [General] [Info]         C:\nuget\bin
+[7:17:36 PM] [General] [Info]         C:\MinGW\bin
+[7:17:36 PM] [General] [Info]         C:\Users\asus\AppData\Local\Programs\Microsoft VS Code\bin
+[7:17:36 PM] [General] [Info]         C:\ProgramData\asus\GitHubDesktop\bin
+[7:17:36 PM] [General] [Info]         C:\Users\asus\AppData\Local\GitHubDesktop\bin
+[7:17:36 PM] [General] [Info]         C:\Users\asus\AppData\Local\Programs\Python\Python39
+[7:17:36 PM] [General] [Info]         C:\Users\asus\AppData\Local\Programs\Python\Python39\bin
+[7:17:36 PM] [General] [Info]         D:\Flutter\flutter\bin
+[7:17:36 PM] [General] [Info]         C:\Program Files\Dart\dart-sdk\bin
+[7:17:36 PM] [General] [Info]         C:\msys64\usr\bin
+[7:17:36 PM] [General] [Info]         C:\Users\asus\AppData\Local\Programs\Python\Python39\Scripts
+[7:17:36 PM] [General] [Info]         C:\Users\asus\AppData\Local\Programs\Python\Python39\Scripts\bin
+[7:17:36 PM] [General] [Info]         C:\bazel
+[7:17:36 PM] [General] [Info]         C:\bazel\bin
+[7:17:36 PM] [General] [Info]         C:\Users\asus\AppData\Roaming\nvm
+[7:17:36 PM] [General] [Info]         C:\Users\asus\AppData\Roaming\nvm\bin
+[7:17:36 PM] [General] [Info]         C:\Program Files\nodejs
+[7:17:36 PM] [General] [Info]         C:\Program Files\nodejs\bin
+[7:17:36 PM] [General] [Info]         C:\Users\asus\AppData\Roaming\npm
+[7:17:36 PM] [General] [Info]         C:\Users\asus\AppData\Roaming\npm\bin
+[7:17:36 PM] [General] [Info]         D:\Flutter\flutter\bin\cache\dart-sdk
+[7:17:36 PM] [General] [Info]         D:\Flutter\flutter\bin\cache\dart-sdk\bin
+[7:17:36 PM] [General] [Info]     Found at:
+[7:17:36 PM] [General] [Info]         C:\Program Files\Dart\dart-sdk\bin
+[7:17:36 PM] [General] [Info]         C:\Program Files\Dart\dart-sdk\bin
+[7:17:36 PM] [General] [Info]         C:\Program Files\Dart\dart-sdk\bin
+[7:17:36 PM] [General] [Info]         D:\Flutter\flutter\bin\cache\dart-sdk\bin
+[7:17:36 PM] [General] [Info]     Candidate paths to be post-filtered:
+[7:17:36 PM] [General] [Info]         C:\Program Files\Dart\dart-sdk
+[7:17:36 PM] [General] [Info]         C:\Program Files\Dart\dart-sdk
+[7:17:36 PM] [General] [Info]         C:\Program Files\Dart\dart-sdk
+[7:17:36 PM] [General] [Info]         D:\Flutter\flutter\bin\cache\dart-sdk
+[7:17:36 PM] [General] [Info]     Found at C:\Program Files\Dart\dart-sdk
+[7:17:36 PM] [General] [Info]     Returning SDK path C:\Program Files\Dart\dart-sdk for dart.exe
+[7:17:36 PM] [General] [Info] Experiment random number is 78 for experiment 'sdkDaps'. Experiment is enabled for <= 10
+[7:17:36 PM] [General] [Info] Experiment 'sdkDaps' does not apply and will not be activated
+[7:17:36 PM] [General] [Info] !! PLEASE REVIEW THIS LOG FOR SENSITIVE INFORMATION BEFORE SHARING !!
+
+Dart Code extension: 3.52.1
+Flutter extension: 3.52.0 (not activated)
+
+App: Visual Studio Code
+Version: 1.73.0
+Platform: win
+
+Workspace type: Unknown (Dart SDK)
+Analyzer type: DAS
+Multi-root?: false
+
+Dart SDK:
+    Loc: C:\Program Files\Dart\dart-sdk
+    Ver: 2.10.4
+Flutter SDK:
+    Loc: D:\Flutter\flutter
+    Ver: 3.4.0-19.0.pre.192
+
+HTTP_PROXY: undefined
+NO_PROXY: undefined
+[7:17:37 PM] [General] [Info] Returning cached results for project search
+[7:17:37 PM] [General] [Info] Extension:Startup timing: 6812ms
+[7:17:37 PM] [General] [Info] Found 0 folders requiring "pub get":
+[7:17:37 PM] [General] [Info] Caching Pub package names from pub.dev...
+[7:17:37 PM] [General] [Info] Returning cached results for project search
+[7:17:37 PM] [General] [Info] Returning cached results for project search
+[7:17:39 PM] [General] [Info] Analyzer:Startup timing: 2243ms
+[7:17:44 PM] [General] [Info] Returning cached results for project search
+[7:18:15 PM] [General] [Info] Analyzer:FirstAnalysis timing: 30ms
+Mon Nov 07 2022 [20:38:33 GMT+0700 (Indochina Time)] Log file ended
